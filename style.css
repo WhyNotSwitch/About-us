@@ -44,7 +44,7 @@
 
 
 
-@media (min-width: 768px) {
+@media (max-width: 480px) {
     #page:after {
         background-size: 100%;
     }
@@ -53,11 +53,5 @@
         width: 500px;
         height: 500px;
         margin: -230px;
-    }
-}
-
-@media (min-width: 992px) { 
-    #page:after {
-        background-size: 40%;
     }
 }
