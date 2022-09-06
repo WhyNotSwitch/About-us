@@ -32,7 +32,7 @@
     background-attachment: fixed;
     position: absolute;
     border: 10px solid #FFF;
-    border-radius: 200px;
+    border-radius: 50%;
     width: 300px;
     height: 300px;
     margin: -160px;
@@ -42,19 +42,7 @@
     box-shadow: inset 0px 0px 30px 20px rgba(0, 0, 0, 0.1), 0px 0px 10px 0px rgba(0, 0, 0, .6);
 }
 
-#magnify:active {
-    background-size: 1500px;
-}
 
-
-@media (min-width: 576px) {
-    #page:after {
-        background-size: 100%;
-    }
-    #magnify {
-        background-size: 105%;
-    }
-}
 
 @media (min-width: 768px) {
     #page:after {
@@ -62,16 +50,13 @@
     }
     #magnify {
         background-size: 105%;
+        width: 500px;
+        height: 500px;
+        margin: -230px;
     }
 }
 
 @media (min-width: 992px) { 
-    #page:after {
-        background-size: 40%;
-    }
-}
-
-@media (min-width: 1200px) { 
     #page:after {
         background-size: 40%;
     }
